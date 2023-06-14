@@ -20,8 +20,9 @@ code {
     width: 325px;
     background-color: white;
     border-radius: 10%;
-   margin-top: 100px;
-    margin-left: 300px;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
     display: grid;
     justify-content: center;
 }
@@ -30,17 +31,17 @@ code {
     height: 300px;
     width: 300px;
     border-radius: 10%;
-    margin-top: 12px;
-    margin-left: 12px;
-    position: absolute;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
 }
 
 h1 {
     font-size: 21px;
     font-weight: 700;
     position: relative;
-    justify-content: center;
-    margin-top: 325px;
+    margin: auto;
+    margin-top: 10px;
 }
 
 h2 {
@@ -48,6 +49,6 @@ h2 {
     font-weight: 300;
     color: grey;
     position: relative;
-    justify-content: center;
-    margin-top: -10px;
+    margin: auto;
+    margin-bottom: 30px;
 }
